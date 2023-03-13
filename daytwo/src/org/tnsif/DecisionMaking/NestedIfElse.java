@@ -5,7 +5,9 @@ public class NestedIfElse {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner s=new Scanner(System.in);
+		System.out.println("enter age:");
 		int age=s.nextInt();
+		System.out.println("enter weight:");
 		int weight=s.nextInt();
 		if(age>=12) {
 			if(weight>=40) {
@@ -23,6 +25,7 @@ public class NestedIfElse {
 		else {
 			System.out.println("not eligible");
 		}
+		s.close();
 	}
 
 }
